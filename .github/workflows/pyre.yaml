@@ -22,6 +22,7 @@ jobs:
           python -m pip install async-generator click dataclasses-json libcst psutil pywatchman tabulate testslide typing_extensions
           python -m pip install cython
           python -m pip install flask flask_cors graphql-core typing_inspect
+          python -m pip install pyre-check
       - name: Run Pyre
         run: |
           pyre check
