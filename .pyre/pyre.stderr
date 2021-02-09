@@ -45,3 +45,44 @@
 2021-02-09 11:40:36,004 [PID 46096] PERFORMANCE Check: 2.173419s
 2021-02-09 11:40:36,040 [PID 46096] DEBUG Removing pid file: `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-46097.pid`
 2021-02-09 11:40:36,041 [PID 46096] SUCCESS No type errors found
+2021-02-09 11:55:03,007 [PID 50883] DEBUG Running cli command `/Users/maggiemoss/.local/bin/pyre check`...
+2021-02-09 11:55:03,008 [PID 50883] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 12.
+2021-02-09 11:55:03,008 [PID 50883] DEBUG Running `/Users/maggiemoss/.local/bin/pyre.bin check -project-root /Users/maggiemoss/python_projects/pyre-check-example-project -log-directory /Users/maggiemoss/python_projects/pyre-check-example-project/.pyre -filter-directories /Users/maggiemoss/python_projects/pyre-check-example-project -workers 12 -search-path /Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.9,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.7,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/2and3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/2and3 /Users/maggiemoss/python_projects/pyre-check-example-project`
+2021-02-09 11:55:03,016 [PID 50883] DEBUG Registering process with pid 50884 in pid file `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-50884.pid`
+2021-02-09 11:55:03,160 [PID 50883] PERFORMANCE Module tracker built: 0.082679s
+2021-02-09 11:55:03,160 [PID 50883] INFO Building type environment...
+2021-02-09 11:55:03,398 [PID 50883] INFO Parsing 1033 stubs and sources...
+2021-02-09 11:55:04,182 [PID 50883] PERFORMANCE Sources parsed: 0.783973s
+2021-02-09 11:55:04,864 [PID 50883] PERFORMANCE Full environment built: 1.703604s
+2021-02-09 11:55:04,865 [PID 50883] INFO Checking 6 functions...
+2021-02-09 11:55:04,867 [PID 50883] INFO Processed 6 of 6 functions
+2021-02-09 11:55:04,867 [PID 50883] PERFORMANCE Check_TypeCheck: 0.002416s
+2021-02-09 11:55:04,867 [PID 50883] MEMORY Shared memory size post-typecheck (size: 10)
+2021-02-09 11:55:04,867 [PID 50883] INFO Postprocessing 1033 sources...
+2021-02-09 11:55:04,913 [PID 50883] INFO Postprocessed 44 of 1033 sources
+2021-02-09 11:55:04,914 [PID 50883] INFO Postprocessed 88 of 1033 sources
+2021-02-09 11:55:04,914 [PID 50883] INFO Postprocessed 132 of 1033 sources
+2021-02-09 11:55:04,915 [PID 50883] INFO Postprocessed 176 of 1033 sources
+2021-02-09 11:55:04,915 [PID 50883] INFO Postprocessed 220 of 1033 sources
+2021-02-09 11:55:04,915 [PID 50883] INFO Postprocessed 264 of 1033 sources
+2021-02-09 11:55:04,918 [PID 50883] INFO Postprocessed 308 of 1033 sources
+2021-02-09 11:55:04,918 [PID 50883] INFO Postprocessed 352 of 1033 sources
+2021-02-09 11:55:04,919 [PID 50883] INFO Postprocessed 396 of 1033 sources
+2021-02-09 11:55:04,922 [PID 50883] INFO Postprocessed 440 of 1033 sources
+2021-02-09 11:55:04,923 [PID 50883] INFO Postprocessed 484 of 1033 sources
+2021-02-09 11:55:04,923 [PID 50883] INFO Postprocessed 528 of 1033 sources
+2021-02-09 11:55:04,960 [PID 50883] INFO Postprocessed 572 of 1033 sources
+2021-02-09 11:55:04,961 [PID 50883] INFO Postprocessed 616 of 1033 sources
+2021-02-09 11:55:04,961 [PID 50883] INFO Postprocessed 660 of 1033 sources
+2021-02-09 11:55:04,962 [PID 50883] INFO Postprocessed 704 of 1033 sources
+2021-02-09 11:55:04,965 [PID 50883] INFO Postprocessed 748 of 1033 sources
+2021-02-09 11:55:04,966 [PID 50883] INFO Postprocessed 792 of 1033 sources
+2021-02-09 11:55:04,967 [PID 50883] INFO Postprocessed 836 of 1033 sources
+2021-02-09 11:55:04,968 [PID 50883] INFO Postprocessed 857 of 1033 sources
+2021-02-09 11:55:04,972 [PID 50883] INFO Postprocessed 901 of 1033 sources
+2021-02-09 11:55:04,972 [PID 50883] INFO Postprocessed 945 of 1033 sources
+2021-02-09 11:55:04,972 [PID 50883] INFO Postprocessed 989 of 1033 sources
+2021-02-09 11:55:04,975 [PID 50883] INFO Postprocessed 1033 of 1033 sources
+2021-02-09 11:55:04,979 [PID 50883] PERFORMANCE Check: 1.911430s
+2021-02-09 11:55:05,012 [PID 50883] DEBUG Removing pid file: `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-50884.pid`
+2021-02-09 11:55:05,013 [PID 50883] ERROR Found 1 type error!
