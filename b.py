@@ -1,2 +1,2 @@
-def bar() -> int:
+def bar() -> bool:
     return ""
