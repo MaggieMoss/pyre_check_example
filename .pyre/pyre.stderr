@@ -1,0 +1,47 @@
+2021-02-09 11:39:29,011 [PID 45956] DEBUG Running cli command `/Users/maggiemoss/.local/bin/pyre check`...
+2021-02-09 11:39:29,012 [PID 45956] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 12.
+2021-02-09 11:39:29,012 [PID 45956] DEBUG Running `/Users/maggiemoss/.local/bin/pyre.bin check -project-root /Users/maggiemoss/python_projects/pyre-check-example-project -log-directory /Users/maggiemoss/python_projects/pyre-check-example-project/.pyre -filter-directories /Users/maggiemoss/python_projects/pyre-check-example-project -workers 12 -search-path /Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.9,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.7,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/2and3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/2and3 /Users/maggiemoss/python_projects/pyre-check-example-project`
+2021-02-09 11:39:29,019 [PID 45956] DEBUG Registering process with pid 45957 in pid file `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-45957.pid`
+2021-02-09 11:39:29,825 [PID 45956] DEBUG Removing pid file: `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-45957.pid`
+2021-02-09 11:39:29,826 [PID 45956] ERROR Client exited with error code -9
+2021-02-09 11:40:33,639 [PID 46096] DEBUG Running cli command `/Users/maggiemoss/.local/bin/pyre check`...
+2021-02-09 11:40:33,639 [PID 46096] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 12.
+2021-02-09 11:40:33,640 [PID 46096] DEBUG Running `/Users/maggiemoss/.local/bin/pyre.bin check -project-root /Users/maggiemoss/python_projects/pyre-check-example-project -log-directory /Users/maggiemoss/python_projects/pyre-check-example-project/.pyre -filter-directories /Users/maggiemoss/python_projects/pyre-check-example-project -workers 12 -search-path /Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.9,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.7,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/2and3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/2and3 /Users/maggiemoss/python_projects/pyre-check-example-project`
+2021-02-09 11:40:33,647 [PID 46096] DEBUG Registering process with pid 46097 in pid file `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-46097.pid`
+2021-02-09 11:40:33,939 [PID 46096] PERFORMANCE Module tracker built: 0.086184s
+2021-02-09 11:40:33,939 [PID 46096] INFO Building type environment...
+2021-02-09 11:40:34,168 [PID 46096] INFO Parsing 1033 stubs and sources...
+2021-02-09 11:40:35,047 [PID 46096] PERFORMANCE Sources parsed: 0.878954s
+2021-02-09 11:40:35,881 [PID 46096] PERFORMANCE Full environment built: 1.940566s
+2021-02-09 11:40:35,882 [PID 46096] INFO Checking 3 functions...
+2021-02-09 11:40:35,882 [PID 46096] INFO Processed 3 of 3 functions
+2021-02-09 11:40:35,882 [PID 46096] PERFORMANCE Check_TypeCheck: 0.000312s
+2021-02-09 11:40:35,882 [PID 46096] MEMORY Shared memory size post-typecheck (size: 10)
+2021-02-09 11:40:35,883 [PID 46096] INFO Postprocessing 1033 sources...
+2021-02-09 11:40:35,936 [PID 46096] INFO Postprocessed 44 of 1033 sources
+2021-02-09 11:40:35,936 [PID 46096] INFO Postprocessed 88 of 1033 sources
+2021-02-09 11:40:35,937 [PID 46096] INFO Postprocessed 132 of 1033 sources
+2021-02-09 11:40:35,937 [PID 46096] INFO Postprocessed 176 of 1033 sources
+2021-02-09 11:40:35,937 [PID 46096] INFO Postprocessed 220 of 1033 sources
+2021-02-09 11:40:35,937 [PID 46096] INFO Postprocessed 264 of 1033 sources
+2021-02-09 11:40:35,941 [PID 46096] INFO Postprocessed 308 of 1033 sources
+2021-02-09 11:40:35,941 [PID 46096] INFO Postprocessed 352 of 1033 sources
+2021-02-09 11:40:35,941 [PID 46096] INFO Postprocessed 396 of 1033 sources
+2021-02-09 11:40:35,944 [PID 46096] INFO Postprocessed 440 of 1033 sources
+2021-02-09 11:40:35,944 [PID 46096] INFO Postprocessed 484 of 1033 sources
+2021-02-09 11:40:35,945 [PID 46096] INFO Postprocessed 528 of 1033 sources
+2021-02-09 11:40:35,986 [PID 46096] INFO Postprocessed 572 of 1033 sources
+2021-02-09 11:40:35,987 [PID 46096] INFO Postprocessed 616 of 1033 sources
+2021-02-09 11:40:35,987 [PID 46096] INFO Postprocessed 660 of 1033 sources
+2021-02-09 11:40:35,987 [PID 46096] INFO Postprocessed 704 of 1033 sources
+2021-02-09 11:40:35,991 [PID 46096] INFO Postprocessed 748 of 1033 sources
+2021-02-09 11:40:35,993 [PID 46096] INFO Postprocessed 792 of 1033 sources
+2021-02-09 11:40:35,993 [PID 46096] INFO Postprocessed 813 of 1033 sources
+2021-02-09 11:40:35,993 [PID 46096] INFO Postprocessed 857 of 1033 sources
+2021-02-09 11:40:35,997 [PID 46096] INFO Postprocessed 901 of 1033 sources
+2021-02-09 11:40:35,998 [PID 46096] INFO Postprocessed 945 of 1033 sources
+2021-02-09 11:40:35,999 [PID 46096] INFO Postprocessed 989 of 1033 sources
+2021-02-09 11:40:36,001 [PID 46096] INFO Postprocessed 1033 of 1033 sources
+2021-02-09 11:40:36,004 [PID 46096] PERFORMANCE Check: 2.173419s
+2021-02-09 11:40:36,040 [PID 46096] DEBUG Removing pid file: `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-46097.pid`
+2021-02-09 11:40:36,041 [PID 46096] SUCCESS No type errors found
