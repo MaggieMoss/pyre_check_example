@@ -45,3 +45,44 @@
 2021-02-09 11:40:36,004 [PID 46096] PERFORMANCE Check: 2.173419s
 2021-02-09 11:40:36,040 [PID 46096] DEBUG Removing pid file: `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-46097.pid`
 2021-02-09 11:40:36,041 [PID 46096] SUCCESS No type errors found
+2021-02-09 11:43:21,019 [PID 47812] DEBUG Running cli command `/Users/maggiemoss/.local/bin/pyre check`...
+2021-02-09 11:43:21,020 [PID 47812] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 12.
+2021-02-09 11:43:21,021 [PID 47812] DEBUG Running `/Users/maggiemoss/.local/bin/pyre.bin check -project-root /Users/maggiemoss/python_projects/pyre-check-example-project -log-directory /Users/maggiemoss/python_projects/pyre-check-example-project/.pyre -filter-directories /Users/maggiemoss/python_projects/pyre-check-example-project -workers 12 -search-path /Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.9,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.7,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/2and3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/2and3 /Users/maggiemoss/python_projects/pyre-check-example-project`
+2021-02-09 11:43:21,029 [PID 47812] DEBUG Registering process with pid 47814 in pid file `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-47814.pid`
+2021-02-09 11:43:21,201 [PID 47812] PERFORMANCE Module tracker built: 0.109206s
+2021-02-09 11:43:21,201 [PID 47812] INFO Building type environment...
+2021-02-09 11:43:21,445 [PID 47812] INFO Parsing 1033 stubs and sources...
+2021-02-09 11:43:22,571 [PID 47812] PERFORMANCE Sources parsed: 1.126543s
+2021-02-09 11:43:23,404 [PID 47812] PERFORMANCE Full environment built: 2.203178s
+2021-02-09 11:43:23,405 [PID 47812] INFO Checking 6 functions...
+2021-02-09 11:43:23,408 [PID 47812] INFO Processed 6 of 6 functions
+2021-02-09 11:43:23,408 [PID 47812] PERFORMANCE Check_TypeCheck: 0.003109s
+2021-02-09 11:43:23,408 [PID 47812] MEMORY Shared memory size post-typecheck (size: 10)
+2021-02-09 11:43:23,408 [PID 47812] INFO Postprocessing 1033 sources...
+2021-02-09 11:43:23,461 [PID 47812] INFO Postprocessed 44 of 1033 sources
+2021-02-09 11:43:23,462 [PID 47812] INFO Postprocessed 88 of 1033 sources
+2021-02-09 11:43:23,462 [PID 47812] INFO Postprocessed 132 of 1033 sources
+2021-02-09 11:43:23,462 [PID 47812] INFO Postprocessed 176 of 1033 sources
+2021-02-09 11:43:23,463 [PID 47812] INFO Postprocessed 220 of 1033 sources
+2021-02-09 11:43:23,463 [PID 47812] INFO Postprocessed 264 of 1033 sources
+2021-02-09 11:43:23,465 [PID 47812] INFO Postprocessed 308 of 1033 sources
+2021-02-09 11:43:23,466 [PID 47812] INFO Postprocessed 352 of 1033 sources
+2021-02-09 11:43:23,468 [PID 47812] INFO Postprocessed 396 of 1033 sources
+2021-02-09 11:43:23,469 [PID 47812] INFO Postprocessed 440 of 1033 sources
+2021-02-09 11:43:23,469 [PID 47812] INFO Postprocessed 484 of 1033 sources
+2021-02-09 11:43:23,470 [PID 47812] INFO Postprocessed 528 of 1033 sources
+2021-02-09 11:43:23,512 [PID 47812] INFO Postprocessed 572 of 1033 sources
+2021-02-09 11:43:23,512 [PID 47812] INFO Postprocessed 616 of 1033 sources
+2021-02-09 11:43:23,512 [PID 47812] INFO Postprocessed 660 of 1033 sources
+2021-02-09 11:43:23,513 [PID 47812] INFO Postprocessed 704 of 1033 sources
+2021-02-09 11:43:23,517 [PID 47812] INFO Postprocessed 748 of 1033 sources
+2021-02-09 11:43:23,517 [PID 47812] INFO Postprocessed 792 of 1033 sources
+2021-02-09 11:43:23,517 [PID 47812] INFO Postprocessed 836 of 1033 sources
+2021-02-09 11:43:23,522 [PID 47812] INFO Postprocessed 857 of 1033 sources
+2021-02-09 11:43:23,526 [PID 47812] INFO Postprocessed 901 of 1033 sources
+2021-02-09 11:43:23,527 [PID 47812] INFO Postprocessed 945 of 1033 sources
+2021-02-09 11:43:23,527 [PID 47812] INFO Postprocessed 989 of 1033 sources
+2021-02-09 11:43:23,528 [PID 47812] INFO Postprocessed 1033 of 1033 sources
+2021-02-09 11:43:23,532 [PID 47812] PERFORMANCE Check: 2.447085s
+2021-02-09 11:43:23,568 [PID 47812] DEBUG Removing pid file: `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-47814.pid`
+2021-02-09 11:43:23,569 [PID 47812] ERROR Found 1 type error!
