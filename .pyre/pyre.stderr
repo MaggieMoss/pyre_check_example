@@ -45,3 +45,47 @@
 2021-02-09 11:40:36,004 [PID 46096] PERFORMANCE Check: 2.173419s
 2021-02-09 11:40:36,040 [PID 46096] DEBUG Removing pid file: `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-46097.pid`
 2021-02-09 11:40:36,041 [PID 46096] SUCCESS No type errors found
+2021-02-09 16:05:16,887 [PID 84911] DEBUG Running cli command `/Users/maggiemoss/.local/bin/pyre check`...
+2021-02-09 16:05:16,887 [PID 84911] INFO No binary specified, looking for `pyre.bin` in PATH
+2021-02-09 16:05:16,888 [PID 84911] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 12.
+2021-02-09 16:05:16,888 [PID 84911] INFO No typeshed specified, looking for it...
+2021-02-09 16:05:16,888 [PID 84911] INFO Found: `/Users/maggiemoss/.local/lib/pyre_check/typeshed`
+2021-02-09 16:05:16,889 [PID 84911] DEBUG Running `/Users/maggiemoss/.local/bin/pyre.bin check -project-root /Users/maggiemoss/python_projects/pyre-check-example-project -log-directory /Users/maggiemoss/python_projects/pyre-check-example-project/.pyre -filter-directories /Users/maggiemoss/python_projects/pyre-check-example-project -workers 12 -search-path /Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.9,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3.7,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/stdlib/2and3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/3,/Users/maggiemoss/.local/lib/pyre_check/typeshed/third_party/2and3 /Users/maggiemoss/python_projects/pyre-check-example-project`
+2021-02-09 16:05:16,894 [PID 84911] DEBUG Registering process with pid 84912 in pid file `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-84912.pid`
+2021-02-09 16:05:17,285 [PID 84911] PERFORMANCE Module tracker built: 0.177097s
+2021-02-09 16:05:17,285 [PID 84911] INFO Building type environment...
+2021-02-09 16:05:17,546 [PID 84911] INFO Parsing 1033 stubs and sources...
+2021-02-09 16:05:18,620 [PID 84911] PERFORMANCE Sources parsed: 1.073557s
+2021-02-09 16:05:19,316 [PID 84911] PERFORMANCE Full environment built: 2.030578s
+2021-02-09 16:05:19,317 [PID 84911] INFO Checking 6 functions...
+2021-02-09 16:05:19,318 [PID 84911] INFO Processed 6 of 6 functions
+2021-02-09 16:05:19,318 [PID 84911] PERFORMANCE Check_TypeCheck: 0.000468s
+2021-02-09 16:05:19,318 [PID 84911] MEMORY Shared memory size post-typecheck (size: 10)
+2021-02-09 16:05:19,318 [PID 84911] INFO Postprocessing 1033 sources...
+2021-02-09 16:05:19,365 [PID 84911] INFO Postprocessed 44 of 1033 sources
+2021-02-09 16:05:19,365 [PID 84911] INFO Postprocessed 88 of 1033 sources
+2021-02-09 16:05:19,366 [PID 84911] INFO Postprocessed 132 of 1033 sources
+2021-02-09 16:05:19,368 [PID 84911] INFO Postprocessed 176 of 1033 sources
+2021-02-09 16:05:19,368 [PID 84911] INFO Postprocessed 220 of 1033 sources
+2021-02-09 16:05:19,369 [PID 84911] INFO Postprocessed 264 of 1033 sources
+2021-02-09 16:05:19,372 [PID 84911] INFO Postprocessed 308 of 1033 sources
+2021-02-09 16:05:19,372 [PID 84911] INFO Postprocessed 352 of 1033 sources
+2021-02-09 16:05:19,374 [PID 84911] INFO Postprocessed 396 of 1033 sources
+2021-02-09 16:05:19,374 [PID 84911] INFO Postprocessed 440 of 1033 sources
+2021-02-09 16:05:19,375 [PID 84911] INFO Postprocessed 484 of 1033 sources
+2021-02-09 16:05:19,375 [PID 84911] INFO Postprocessed 528 of 1033 sources
+2021-02-09 16:05:19,412 [PID 84911] INFO Postprocessed 572 of 1033 sources
+2021-02-09 16:05:19,414 [PID 84911] INFO Postprocessed 616 of 1033 sources
+2021-02-09 16:05:19,415 [PID 84911] INFO Postprocessed 660 of 1033 sources
+2021-02-09 16:05:19,416 [PID 84911] INFO Postprocessed 704 of 1033 sources
+2021-02-09 16:05:19,418 [PID 84911] INFO Postprocessed 748 of 1033 sources
+2021-02-09 16:05:19,419 [PID 84911] INFO Postprocessed 792 of 1033 sources
+2021-02-09 16:05:19,419 [PID 84911] INFO Postprocessed 836 of 1033 sources
+2021-02-09 16:05:19,420 [PID 84911] INFO Postprocessed 857 of 1033 sources
+2021-02-09 16:05:19,425 [PID 84911] INFO Postprocessed 901 of 1033 sources
+2021-02-09 16:05:19,425 [PID 84911] INFO Postprocessed 945 of 1033 sources
+2021-02-09 16:05:19,426 [PID 84911] INFO Postprocessed 989 of 1033 sources
+2021-02-09 16:05:19,429 [PID 84911] INFO Postprocessed 1033 of 1033 sources
+2021-02-09 16:05:19,430 [PID 84911] PERFORMANCE Check: 2.347641s
+2021-02-09 16:05:19,468 [PID 84911] DEBUG Removing pid file: `/Users/maggiemoss/python_projects/pyre-check-example-project/.pyre/pid_files/check-84912.pid`
+2021-02-09 16:05:19,469 [PID 84911] SUCCESS No type errors found
